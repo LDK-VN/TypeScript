@@ -1,5 +1,5 @@
 # First steps
-[TypeScript]()
+![TypeScript](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo.png)
 ## Ngôn ngữ
 
 * Typescript
