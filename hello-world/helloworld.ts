@@ -1,4 +1,17 @@
-const obj = { width:10, height: 15 };
-const area = obj.width * obj.heigth;
+interface User{
+    name: string;
+    id: number,
+}
 
-let a = (4/[])
+class UserAccount {
+    name: string;
+    id: number;
+
+    constructor(name: string, id: number) {
+        this.name = name;
+        this.id = id;
+    }
+}
+
+const user: User = new UserAccount("KhanhLD",1);
+console.log(user)
