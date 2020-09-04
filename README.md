@@ -1,5 +1,10 @@
 # First steps
 ![TypeScript](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo.png)
+
+## Tài liệu tham khảo
+
+https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+
 ## Ngôn ngữ
 
 * Typescript
