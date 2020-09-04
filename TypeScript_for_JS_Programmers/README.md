@@ -3,11 +3,6 @@
 </p>
 
 # TypeScript for Javascript programers
-<<<<<<< HEAD
-![TS-JS](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png)
- git p
-=======
->>>>>>> c19a0cfd064f9b9289f6d0c8e0e4b0b823a303d2
 * TypeScript -> Mỗi quan hệ bất thường với Javascript
 * Cung cấp all tính năng JS + TypeScript’s type system (Hệ thống kiểu)
 
