@@ -16,7 +16,7 @@
 * Phát hiện lỗi, lỗi nào không dựa trên -> loại giá trị đang run -> static type checker (Kiểm tra kiểu tĩnh)
 * Check lỗi program -> trước exe -> dự trên loại giá trị
 
-```
+```ts
 const obj = { width: 10, height: 15 };
 const area = obj.width * obj.heigth;
 Property 'heigth' does not exist on type '{ width: number; height: number; }'. Did you mean 'height'?
