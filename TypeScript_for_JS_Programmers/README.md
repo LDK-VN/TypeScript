@@ -1,6 +1,6 @@
 # TypeScript for Javascript programers
 ![TS-JS](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png)
- 
+ git p
 * TypeScript -> Mỗi quan hệ bất thường với Javascript
 * Cung cấp all tính năng JS + TypeScript’s type system (Hệ thống kiểu)
 
@@ -104,4 +104,6 @@ function deleteUser(user: User) {
 
 * TypeScript mở rộng danh sách
     * any (Bất cứ đứa nào)
-    * unknown ()
+    * unknown (ensure someone using this type declares what the type is)
+    * nerver (it’s not possible that this type could happen)
+    * void (Một function trả về `undefined` hoặc không trả về value)
