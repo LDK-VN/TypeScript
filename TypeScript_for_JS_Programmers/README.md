@@ -1,8 +1,18 @@
+<p align="center">
+  <a href="https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png" target="blank"><img src="https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png" width="320" alt="Nest Logo" /></a>
+</p>
+
 # TypeScript for Javascript programers
+<<<<<<< HEAD
 ![TS-JS](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png)
  git p
+=======
+>>>>>>> c19a0cfd064f9b9289f6d0c8e0e4b0b823a303d2
 * TypeScript -> Mỗi quan hệ bất thường với Javascript
 * Cung cấp all tính năng JS + TypeScript’s type system (Hệ thống kiểu)
+
+## Tài liệu tham khảo
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 ## Types by inference (Loại theo suy luận)
 * Tạo các type cho bạn trong nhiều trường hợp
