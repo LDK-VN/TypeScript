@@ -1,6 +1,8 @@
+<p align="center">
+  <a href="https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png" target="blank"><img src="https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png" width="320" alt="Nest Logo" /></a>
+</p>
+
 # TypeScript for Javascript programers
-![TS-JS](https://github.com/LDK-VN/TypeScript/blob/master/resource/logo2.png)
- 
 * TypeScript -> Mỗi quan hệ bất thường với Javascript
 * Cung cấp all tính năng JS + TypeScript’s type system (Hệ thống kiểu)
 
