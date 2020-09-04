@@ -6,6 +6,9 @@
 * TypeScript -> Mỗi quan hệ bất thường với Javascript
 * Cung cấp all tính năng JS + TypeScript’s type system (Hệ thống kiểu)
 
+## Tài liệu tham khảo
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
 ## Types by inference (Loại theo suy luận)
 * Tạo các type cho bạn trong nhiều trường hợp
 
