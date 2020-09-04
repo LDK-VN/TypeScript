@@ -14,7 +14,7 @@
 ## A static type checker (Trình kiểm tra loại tĩnh)
 
 * Phát hiện lỗi, lỗi nào không dựa trên -> loại giá trị đang run -> static type checker (Kiểm tra kiểu tĩnh)
-* Check lỗi program -> trước exe -> dự trên loại giá trị
+* Check lỗi program -> trước exe -> dựa trên loại giá trị
 
 ```ts
 const obj = { width: 10, height: 15 };
