@@ -110,5 +110,20 @@ function deleteUser(user: User) {
 * TypeScript mở rộng danh sách
     * any (Bất cứ đứa nào)
     * unknown (ensure someone using this type declares what the type is)
+        * Nó giống any
+        * Khó tính hơn any
+        * Chỉ có thể gán cho any hoặc unknown
     * nerver (it’s not possible that this type could happen)
+        * Không bao giờ có giá trị
+        
+```ts
+function throwError(errorMsg: string): never { 
+            throw new Error(errorMsg); 
+} 
+
+function keepProcessing(): never { 
+    keepProcessing();
+}
+```
+
     * void (Một function trả về `undefined` hoặc không trả về value)
