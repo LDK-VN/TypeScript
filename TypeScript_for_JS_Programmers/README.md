@@ -12,7 +12,7 @@ https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 ## Types by inference (Loại theo suy luận)
 * Tạo các type cho bạn trong nhiều trường hợp
 
-EX: Tạo biến -> gán giá trị cụ thể -> sử dụng type của giá trị đó
++ EX: Tạo biến -> gán giá trị cụ thể -> sử dụng type của giá trị đó
 
 ```ts
 let helloworld = "Hello World";
@@ -179,7 +179,8 @@ function wrapInArray(obj:string | string[]) {
 
 ### Generics
 * Cung cấp các variable to types.
-* EX: * Array -> không có generic -> chứa all
+* EX: 
+      * Array -> không có generic -> chứa all
       * Array -> có generic -> mô tả các giá trị mảng đó chứa
 ```ts
 type StringArray = Array<string>;
