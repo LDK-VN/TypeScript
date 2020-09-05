@@ -179,8 +179,8 @@ function wrapInArray(obj:string | string[]) {
 
 ### Generics
 * Cung cấp các variable to types.
-EX: Array -> không có generic -> chứa all
-    Array -> có generic -> mô tả các giá trị mảng đó chứa
+* EX: * Array -> không có generic -> chứa all
+      * Array -> có generic -> mô tả các giá trị mảng đó chứa
 ```ts
 type StringArray = Array<string>;
 type NumberArray = Array<number>;
