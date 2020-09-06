@@ -75,8 +75,8 @@ x = ["hello",10]; // OK
 // Initialize it incorrectly
 x = [10, "hello"]; // Error
 
-Type 'number' is not asignable to type 'string'.
-Type 'string' is not asignable to type 'number'.
+// Type 'number' is not asignable to type 'string'.
+// Type 'string' is not asignable to type 'number'.
 ```
 * Khi truy cập một phần tử có chỉ mục đã biết, loại đúng sẽ được truy xuất:
 ```ts
@@ -143,7 +143,7 @@ console.log(colorName);
 ```
 ## Unknown
 
-* Cung cấp cho complier và người đọc trong tưong lại biết -> nó có thể là bất cứ thứ gì
+* Cung cấp cho complier và người đọc trong tương lại biết -> nó có thể là bất cứ thứ gì
 ```ts
 let notSure: unknown = 4;
 notSure = "maybe a string instead";
@@ -157,7 +157,7 @@ notSure = false;
 declare const maybwe: unknown;
 // 'maybe' could be a string, object, boolean, undefined, or other types
 const aNumber: number = maybe;
-/* ype 'unknown' is not assignable to type 'number'. */
+/* Type 'unknown' is not assignable to type 'number'. */
 
 if(maybe === true) {
     // TypeScript knowns that maybe is a boolean now
@@ -312,7 +312,7 @@ let strLength: number = (<string>someValue).length;
 
 ## About Number, String, Boolean, Symbol và Object
 
-* Những kiểu này không đề cập tới các nguyên language primitives (nguyên thuỷ ngôn ngữ) -> hầu như fynkhông nên sử dụng như một type
+* Những kiểu này không đề cập tới language primitives (nguyên thuỷ ngôn ngữ) -> hầu như fynkhông nên sử dụng như một type
 
 ```ts
 function reverse(s: String): String {
