@@ -12,7 +12,7 @@ let isDone = false;
 * All số -> Floating point value (giá trị dấu phẩy động) or BigIntegers
 * Floating point numbers -> type **number**
 * BigIntegers -> type **bigint**
-* Support thêm -> binary, octal, hẽadecimal, decimal
+* Support thêm -> binary, octal, hadecimal, decimal
 
 ```ts
 let decimal: number = 6;
