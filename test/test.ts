@@ -1,22 +1,6 @@
-interface Point {
-    x: number;
-    y: number;
+function reverse(s: string): string {
+    return s.split("").reverse().join("");
 }
 
-function printPoint(p: Point) {
-    console.log(`${p.x}, ${p.y}`)
-}
-
-class VirtualPoint {
-    x: number;
-    y: number;
-
-    constructor(x: number, y: number) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-const newPoint = new VirtualPoint(13, 56);
-console.log(newPoint)
-printPoint(newPoint); // prints "13, 56"
+let result = reverse("hello world");
+console.log(result);
