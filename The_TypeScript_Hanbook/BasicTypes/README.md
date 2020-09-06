@@ -312,7 +312,7 @@ let strLength: number = (<string>someValue).length;
 
 ## About Number, String, Boolean, Symbol và Object
 
-* Những kiểu này không đề cập tới language primitives (nguyên thuỷ ngôn ngữ) -> hầu như fynkhông nên sử dụng như một type
+* Những kiểu này không đề cập tới language primitives (nguyên thuỷ ngôn ngữ) -> hầu như không nên sử dụng như một type
 
 ```ts
 function reverse(s: String): String {
