@@ -1,5 +1,7 @@
-function reverse(s) {
-    return s.split("").reverse().join("");
-}
-var result = reverse("hello world");
-console.log(result);
+var mySearch;
+mySearch = function (src, sub) {
+    var result = src.search(sub);
+    console.log(result);
+    return result > -1;
+};
+console.log(mySearch("leduy", "leduy"));

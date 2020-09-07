@@ -1,6 +1,13 @@
-function reverse(s: string): string {
-    return s.split("").reverse().join("");
+interface SearchFunc {
+    (source: string, subString: string) : boolean;
 }
 
-let result = reverse("hello world");
-console.log(result);
+let mySearch: SearchFunc;
+
+mySearch = function (src, sub) {
+    let result = src.search(sub);
+    console.log(result);
+    return "string";
+}
+
+console.log(mySearch("leduy","leduy"))
