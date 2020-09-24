@@ -1,13 +1,15 @@
-interface SearchFunc {
-    (source: string, subString: string) : boolean;
+type User = {
+    name: string
 }
 
-let mySearch: SearchFunc;
+const x: User = {name: 'khanhld'};
+x.name = 'hoangld';
+console.log(x);
 
-mySearch = function (src, sub) {
-    let result = src.search(sub);
-    console.log(result);
-    return "string";
+type User2 = {
+    readonly name: string
 }
 
-console.log(mySearch("leduy","leduy"))
+const y: User2 = {name: 'hoangld'};
+y.name = 'tamlh';
+console.log(y);

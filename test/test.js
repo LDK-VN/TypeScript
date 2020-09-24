@@ -1,7 +1,6 @@
-var mySearch;
-mySearch = function (src, sub) {
-    var result = src.search(sub);
-    console.log(result);
-    return result > -1;
-};
-console.log(mySearch("leduy", "leduy"));
+var x = { name: 'khanhld' };
+x.name = 'hoangld';
+console.log(x);
+var y = { name: 'hoangld' };
+y.name = 'tamlh';
+console.log(y);
